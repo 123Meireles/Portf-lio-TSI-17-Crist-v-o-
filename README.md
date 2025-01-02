@@ -3,44 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Mim</title>
-     <!--BOOTSTRAP ICONS-->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-     <!--FIM BOOTSTAP ICONS-->  
-    <link rel="stylesheet" href="Sobre mim.css">
+    <title>Cristovao Meireles Nhachengo</title>
+     <!--Font awesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!--FIm Font awesome-->
+   <!--Clipyy-->
+<link rel="stylesheet" href=" https://bennettfeely.com/clippy/">
+   <!--Fim Clippy-->
+    <!--BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--FIM BOOTSTAP ICONS-->  
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    <main>
-    <section class="Sobre">
-        <div class="interfae">
-            <div class="flex"> 
-                <div class="img-sobre">
-                <img src="imagem de perfil.jpg" alt="">
-                 </div><!--img-sobre-->
+    
+<header>
+    <div class="interface">
+        <div class="logo">
+            <a href="#">
+                <h1>Cristóvão Meireles</h1>
+            </a>
 
-           <div class="txt-sobre">
-            <h2>OLÁ, 
-               <pre><span>SOU CRISTOVAO MEIRELES NHACHENGO</span></h2></pre> 
-            <p>Tenho 17 anos e desde cedo sou apaixonado por tecnologia e aprendizado. 
-                Meu percurso educacional começou na Escola Primária de Tsalala,
-                 onde concluí os estudos da 1 a 7 classe, e depois na Escola Comunitária Margarida Naseau, 
-                onde finalizei o primeiro ciclo do ensino secundário. 
-                Atualmente, estou no segundo ano do ensino médio no ITC,
-                 aprofundando meus conhecimentos na área de suporte informático.</p>
-                 
-                     <div class="btn-social">
-                        <a href="https://facebook.com/Cristóvão Meireles" target="_blank" class="facebook"><Button><i class="bi bi-facebook"></i></Button></a>
-                        <a href="https://instagram.com/cristovao_meireles" target="_blank" class="instagram"><button><i class="bi bi-instagram"></i></button></a>
-                        <a href=" https://123meireles.github.io/Portf-lio-TSI-17-Crist-v-o-/" target="_blank" class="github"><Button><i class="bi bi-github"></i></Button>
-                    </div><!--btn-social--></Button></a>
-           
-                </div><!--txt-sobre-->
+        </div><!--logo-->
+
+<nav class="menu-desktop">
+    <ul class="ul open">
+        <li><a href="Inicio.html">Inicio</a></li>
+        <li><a href="habilidades.html">Habilidades</a></li>
+        <li><a href="sobre mim.html">Sobre</a></li>
+        <li><a href="projectos.html">Projectos</a></li>
+        <div class="close">
+        <div class="close-icon  ">
+            <i class="fa-sharp fa-solid fa-circle-xmark"></i> 
+            </div>
+        </div>
+    </ul>
+    <div class="menu-icon" onclick="openMenu()">
+        <i class="fa-solid fa-bars"></i>
+        </div>
+    
+</nav>
+<div class="btn-contacto">
+    <a href="contacto.html">
+        <button>Contacto</button>
+    </a>
+
+</div><!--btn-contacto-->
+
+    </div><!--interface-->
+</header>
+
+<main>
+    <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="txt-topo-site">
+                    <h1>OLÁ SEJA BEM-VINDO AO MEU PORTFÓLIO<span>.</span></h1>
+                    <p>Eu sou o Cristóvão, uma pessoa curiosa e sempre em busca de aprender mais. Gosto de explorar novas ideias e me desafiar em diferentes áreas. 
+                        Quando encontro algo que me interessa, me dedico a entender e a aplicar, seja no mundo digital, em projetos ou no meu próprio crescimento pessoal. 
+                        Sei que cada novo aprendizado é um passo importante para construir algo maior e mais significativo. 
+                        Acredito que a chave para evoluir é estar sempre aberto a novos conhecimentos e experiências..</p>
+
+                        <div class="btn-contacto">
+                            <a href="contacto.html">
+                                <button>Entre em Contacto</button>
+                            </a>
+                        </div>
+
+                </div><!--txt-topo-site-->
+
+                <div class="img-topo-site">
+                    <img src="foto.jpg" alt="Nhachengo">
+
+                </div><!--img-topo-site-->
 
             </div><!--flex-->
         </div><!--interface-->
-    </section><!--Sobre-->
+    </section><!--topo-do-site-->
+
 </main>
-    </header>
+
 </body>
 </html>
